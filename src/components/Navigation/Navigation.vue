@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li v-for="navItem in navigation">
-                <a class="navItem" :href="navItem.url" :class="{active: navItem.selected}">{{navItem.text}}</li>
+                <a class="navItem" :href="navItem.url" :class="{active: $route.path === navItem.url}">{{navItem.text}}</a>
             </li>
         </ul>
     </nav>

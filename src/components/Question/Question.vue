@@ -9,9 +9,6 @@
 <script src="./que.js"></script>
 
 <style>
-    #app {
-        margin: 5em;
-    }
     .question-input {
         padding: .3em;
         width: 400px;

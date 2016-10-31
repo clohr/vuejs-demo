@@ -5,13 +5,11 @@ export default {
             navigation: [
                 {
                     text: 'Intro',
-                    url: '/',
-                    selected: true
+                    url: '/'
                 },
                 {
                     text: 'Ask a Question',
-                    url: '/question',
-                    selected: false
+                    url: '/question'
                 }
             ]
         }
