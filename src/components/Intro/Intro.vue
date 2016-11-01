@@ -1,8 +1,10 @@
 <template>
-    <div class="intro">
-        <h1>{{title}}</h1>
-        <p v-html="msg"></p>
-    </div>
+    <section>
+        <div class="intro">
+            <h1>{{ title }}</h1>
+            <p v-html="msg"></p>
+        </div>
+    </section>
 </template>
 
 <script>

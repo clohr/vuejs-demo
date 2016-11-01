@@ -33,7 +33,7 @@ export default {
                     .then(response => this.answer = capitalize(response.data.answer))
                     .catch(error => this.answer = `Error! Could not reach the API. ${error}`)
             },
-            500 // This is the number of milliseconds we wait for the user to stop typing
+            250 // This is the number of milliseconds we wait for the user to stop typing
         )
     }
 }

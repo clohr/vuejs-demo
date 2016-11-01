@@ -10,6 +10,10 @@ export default {
                 {
                     text: 'Ask a Question',
                     url: '/question'
+                },
+                {
+                    text: 'Counter with State',
+                    url: '/counter'
                 }
             ]
         }

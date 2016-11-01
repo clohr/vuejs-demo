@@ -2,7 +2,7 @@
     <section>
         <h1>Ask a yes/no question</h1>
         <p><input type="text" class="question-input" v-model="question" /></p>
-        <p>{{answer}}</p>
+        <p>{{ answer }}</p>
     </section>
 </template>
 
