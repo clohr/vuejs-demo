@@ -13,6 +13,7 @@ export default {
     ]),
     methods: mapActions([
         'increment',
-        'decrement'
+        'decrement',
+        'incrementAsync'
     ])
 }
