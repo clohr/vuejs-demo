@@ -1,4 +1,5 @@
 import json from './data.json'
+import Vue from 'vue'
 
 export default {
   data() {
@@ -44,7 +45,7 @@ export default {
         "description": "",
         "layerId": 1
       }
-      json.layers[0].annotations[2] = updatedAnn
+      Vue.set(json.layers[0].annotations, 2, updatedAnn);
     }
   }
 }
