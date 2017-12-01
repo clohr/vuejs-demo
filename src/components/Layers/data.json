@@ -1,0 +1,52 @@
+{
+    "layers": [
+        {
+            "id": 1,
+            "title": "Layer #1",
+            "annotations": [
+                {
+                    "id": "ann1",
+                    "label": "Annotation #1",
+                    "description": "This is a test",
+                    "layerId": 1
+                },
+                {
+                    "id": "ann2",
+                    "label": "Annotation #2",
+                    "description": "This is another test",
+                    "layerId": 1
+                },
+                {
+                    "id": "ann3",
+                    "label": "Annotation #3",
+                    "description": "",
+                    "layerId": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Layer #2",
+            "annotations": [
+                {
+                    "id": "ann4",
+                    "label": "Annotation #4",
+                    "description": "",
+                    "layerId": 2
+                },
+                {
+                    "id": "ann5",
+                    "label": "Annotation #5",
+                    "description": "",
+                    "layerId": 2
+                },
+                {
+                    "id": "ann6",
+                    "label": "Annotation #6",
+                    "description": "Last test",
+                    "layerId": 2
+                }
+            ]
+        }
+    ]
+}

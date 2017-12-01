@@ -14,6 +14,10 @@ export default {
                 {
                     text: 'Counter with State',
                     url: '/counter'
+                },
+                {
+                    text: 'Nested Lists',
+                    url: '/layers'
                 }
             ]
         }

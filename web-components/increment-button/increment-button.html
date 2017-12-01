@@ -1,0 +1,28 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<dom-module id="increment-button">
+    <template>
+      <style>
+        :host {
+          display: block;
+        }
+        paper-button {
+            border: solid 1px darkblue;
+            border-radius: 2px;
+            margin: 10px 0 0 0;
+        }
+      </style>
+      <paper-button on-tap="increment">Increment Async</paper-button>
+    </template>
+  
+    <script>
+      Polymer({
+        is: 'increment-button',
+
+        increment: function(evt) {
+            this.fire('increment-async');
+        }
+      });
+    </script>
+  </dom-module>

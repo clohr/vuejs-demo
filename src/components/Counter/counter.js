@@ -15,5 +15,8 @@ export default {
         'increment',
         'decrement',
         'incrementAsync'
-    ])
+    ]),
+    mounted: function() {
+        document.addEventListener('increment-async', this.incrementAsync.bind(this))
+    }   
 }

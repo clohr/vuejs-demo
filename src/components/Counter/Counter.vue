@@ -5,7 +5,7 @@
             Clicked: {{ $store.state.count }} times, count is {{ evenOrOdd }}.
             <button @click="increment">+</button>
             <button @click="decrement">-</button>
-            <button @click="incrementAsync">Increment async</button>
+            <increment-button></increment-button>
         </div>
     </div>
 </template>
