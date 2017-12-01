@@ -1,7 +1,12 @@
 <template>
     <section>
         <h1>Ask a yes/no question</h1>
-        <p><input type="text" class="question-input" v-model="question" /></p>
+        <p>
+            <paper-input 
+                class="question-input"
+                :value="question"
+                @input="question = $event.target.value"></paper-input>
+        </p>
         <p>{{ answer }}</p>
     </section>
 </template>

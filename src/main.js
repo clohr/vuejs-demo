@@ -4,6 +4,12 @@ import routes from './routes'
 
 Vue.use(VueRouter)
 
+// key to making web components work within Vue
+Vue.config.ignoredElements = [
+    'intro-view',
+    'paper-input'
+]
+
 const router = new VueRouter({
     mode: 'history',
     routes

@@ -10,8 +10,4 @@
     </div>
 </template>
 
-<script src="./counter.js"></script>js
-
-<style>
-
-</style>
+<script src="./counter.js"></script>

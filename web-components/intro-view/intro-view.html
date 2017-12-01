@@ -1,0 +1,22 @@
+<link rel="import" href="../../../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../display-greeting/display-greeting.html">
+
+<dom-module id="intro-view">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <display-greeting
+        salutation="[[salutation]]"
+        name="[[name]]"
+        message="[[message]]"></display-greeting>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'intro-view'
+    });
+  </script>
+</dom-module>

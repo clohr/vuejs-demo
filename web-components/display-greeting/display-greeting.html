@@ -1,0 +1,38 @@
+<link rel="import" href="../../../../../bower_components/polymer/polymer.html">
+
+<dom-module id="display-greeting">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <div class="intro">
+      <h2>[[salutation]], [[name]]</h2>
+      <p>[[message]]</p>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'display-greeting',
+
+      properties: {
+        name: {
+          type: String,
+          value: '',
+        },
+        salutation: {
+          type: String,
+          value: '',
+        },
+        message: {
+          type: String,
+          value: '',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
